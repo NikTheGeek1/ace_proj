@@ -1,0 +1,17 @@
+.job-list-container {
+    grid-area: job-list;
+    overflow: scroll;
+}
+
+.job-list-column-names {
+    font-size: var(--smaller-font-size);
+    padding: 1rem 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 3fr 1fr 1fr;
+    border: 1px solid var(--colour-gray-3);
+}
+
+.column-name-url {
+    text-align: right;
+}

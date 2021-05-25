@@ -1,0 +1,25 @@
+.landing-page-main{
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header" "body";
+    grid-template-rows: 5rem 1fr;
+}
+
+.main-body-three-rows,
+.main-body-one-row {
+    grid-area: body;
+    display: grid;
+}
+
+.main-body-three-rows {
+    max-height: 95vh;
+    grid-template-areas: "app-list main-panel input-panel" "job-list main-panel input-panel";
+    grid-template-columns: minmax(20rem, 25rem) minmax(35rem, 1fr) minmax(20rem, 25rem);
+    grid-template-rows: 50% 50%;
+}
+
+.main-body-one-row {
+    grid-template-areas:  "main-panel" "input-panel" "app-list" "job-list";
+    grid-template-rows: minmax(40rem, 55rem) minmax(20rem, 25rem) minmax(20rem, 25rem) minmax(20rem, 25rem);
+}

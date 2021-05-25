@@ -1,0 +1,39 @@
+.job-list-title {
+    background: var(--colour-secondary);
+    border: 1px solid var(--colour-gray-2);
+    padding: 1rem 5rem;
+}
+
+.job-row,
+.job-row-selected {
+    font-size: var(--smaller-font-size);
+    padding: 1rem 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 3fr 1fr 1fr;
+    border: 1px solid var(--colour-gray-3);
+    background-color: var(--colour-quaternary);
+    cursor: pointer;
+}
+
+
+.job-row-selected {
+    background-color: var(--colour-tertiary);
+}
+
+.job-row:hover {
+    background-color: var(--colour-gray-3);
+}
+
+.job-item {
+}
+
+.job-url {
+    justify-self: end;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.job-row-status-4 {
+    background-color: var(--colour-status-4);
+}

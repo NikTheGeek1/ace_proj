@@ -1,0 +1,19 @@
+.main-panel {
+    grid-area: main-panel;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--colour-gray-2);
+    position: relative;
+}
+
+.main-panel-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.main-panel-select-a-job-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}

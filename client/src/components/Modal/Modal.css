@@ -1,0 +1,23 @@
+@keyframes zoom-in {
+    0% {
+        transform: translate(-50%, -50%) scale(.1) ;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1) ;
+    }
+}
+.modal-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40rem;
+    width: 80%;
+    min-width: 25rem;
+    display: grid;
+    background-color: white;
+    font-size: 10rem;
+    animation: zoom-in .2s;
+}

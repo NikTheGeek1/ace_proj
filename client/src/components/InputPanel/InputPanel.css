@@ -1,0 +1,4 @@
+.empty-input-panel-container {
+    grid-area: input-panel;
+    overflow: scroll;
+}

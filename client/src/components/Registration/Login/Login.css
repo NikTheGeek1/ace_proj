@@ -1,0 +1,20 @@
+.login-container {
+    display: grid;
+    font-size: var(--huge-font-size);
+}
+
+.process-modal-title {
+    font-size: var(--huge-font-size);
+    justify-self: center;
+}
+
+.no-account-toggle-text {
+    text-align: center;
+    font-size: var(--primary-font-size);   
+}
+
+.error-message {
+    font-size: var(--large-font-size);
+    color: red;
+    text-align: center;
+}

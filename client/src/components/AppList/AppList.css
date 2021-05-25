@@ -1,0 +1,8 @@
+.app-list-container {
+    grid-area: app-list;
+}
+
+.app-list {
+    list-style: none;
+    overflow: scroll;
+}
